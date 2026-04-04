@@ -75,27 +75,4 @@ upiPayBtn.addEventListener("click", () => {
 // Init
 updatePaymentUI();
 
-// Swiper Slider Logic for Facilities
-const facilitiesSwiper = new Swiper('.facilities-swiper', {
-  slidesPerView: 1, // Single photo presentation slide show
-  spaceBetween: 20,
-  loop: true,
-
-  speed: 600,
-  grabCursor: true,
-
-  autoplay: {
-    delay: 3500, // Move one by one, pausing to let people look at the whole photo
-    disableOnInteraction: false,
-  },
-
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  }
-});
+// Slider removed - replaced with CSS Grid
