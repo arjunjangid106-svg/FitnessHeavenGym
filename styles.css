@@ -552,34 +552,6 @@ a {
   background: linear-gradient(to top, #050608ee, transparent);
 }
 
-.qr-container {
-  display: grid;
-  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.9fr);
-  gap: 2.2rem;
-  align-items: center;
-}
-
-.qr-box {
-  background: radial-gradient(circle at top, #ff33443d, transparent 60%),
-    #050608;
-  border-radius: 1.2rem;
-  padding: 1.4rem 1.4rem 1.1rem;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  text-align: center;
-  box-shadow: 0 22px 40px rgba(0, 0, 0, 0.8);
-}
-
-.qr-box img {
-  margin-inline: auto;
-  border-radius: 0.8rem;
-  background: #fff;
-}
-
-.qr-caption {
-  margin-top: 0.6rem;
-  font-size: 0.85rem;
-  opacity: 0.85;
-}
 
 .site-footer {
   border-top: 1px solid rgba(255, 255, 255, 0.13);
@@ -620,8 +592,7 @@ a {
   }
 
   .hero-inner,
-  .two-col,
-  .qr-container {
+  .two-col {
     grid-template-columns: minmax(0, 1fr);
   }
 
